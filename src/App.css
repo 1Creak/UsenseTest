@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(56, 56, 56);
+}
+.App {
+  text-align: center;
+}
+.App__block{
+  display: flex;
+  text-align: center;
+  /* justify-content: center; */
+  margin: 20% auto;
+  flex-direction: column;
+  width: 20%;
+}
+.App__status{
+  display: flex;
+  justify-content: space-between;
+}
+.App__status span{
+  width: 30%;
+}
+input{
+  padding: 8px;
+  border-radius: 5px;
+  outline: 0;
+  background-color: rgb(27, 27, 27);
+  color: rgb(136, 136, 136);
+}
+button{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: grey;
+  border:none;
+  transition: .2s;
+  margin: 20px;
+  width: 25%;
+}
+button:hover{
+  background-color: rgb(104, 104, 104);
+  transition: .2s;
+}
+button:active{
+  background-color: rgb(5, 5, 5);
+  color: white;
+  transition: .1s;
+}
+.span-default{
+  background-color: white;
+  width: 99%;
+  height: 3px;
+  margin-left: 2px;
+  margin-top: 5px;
+  transition: .5s;
+}
+.span-easy{
+  width: 33.3%;
+  height: 3px;
+  background-color: red;
+  margin-left: 2px;
+  margin-top: 5px;
+  transition: .5s;
+}
+.span-medium{
+  width: 66.6%;
+  height: 3px;
+  background-color: yellow;
+  margin-left: 2px;
+  margin-top: 5px;
+  transition: .5s;
+}
+.span-strong{
+  width: 99%;
+  height: 3px;
+  background-color: green;
+  margin-left: 2px;
+  margin-top: 5px;
+  transition: .5s;
+}
+p{
+  color: darkgrey;
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1.5px;
+}
